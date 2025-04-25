@@ -26,7 +26,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="flex flex-col sm:flex-row items-center gap-16"
             >
-              {/* Image Section with Hover Effect */}
+              {/* Image Section with Hover Effect And path is updated too */}
                         <motion.div
             className="flex-shrink-0 w-full sm:w-1/2"
             whileHover={{ scale: 1.05 }}
