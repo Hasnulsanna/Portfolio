@@ -33,7 +33,7 @@ const About = () => {
             transition={{ duration: 0.3 }}
           >
             <img
-              src="/assets/sanna1.jpg"
+              src={`${import.meta.env.BASE_URL}assets/sanna1.jpg`}
               alt="Portfolio"
               loading="lazy"
               className="rounded-2xl shadow-lg w-96 h-96 object-cover transition duration-500 hover:scale-105 hover:shadow-blue-500/50"
